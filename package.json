@@ -1,0 +1,32 @@
+{
+  "name": "repo-template",
+  "version": "1.0.0",
+  "description": "This is a template repo for starting out web development in TypeScript. It consists of various libraries and tools commonly used for full-stack development. The repo also includes project templates to use for sprint planning. Below are the wishlist and checklist of libraries and tools integrated to start out the project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint",
+    "dev": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antoni0kim/repo-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antoni0kim/repo-template/issues"
+  },
+  "homepage": "https://github.com/antoni0kim/repo-template#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "@typescript-eslint/eslint-plugin": "^8.21.0",
+    "@typescript-eslint/parser": "^8.21.0",
+    "eslint": "^9.18.0",
+    "eslint-plugin-react": "^7.37.4",
+    "globals": "^15.14.0",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.21.0"
+  }
+}
