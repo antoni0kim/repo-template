@@ -8,8 +8,8 @@ This is a template repo for starting out web development in TypeScript. It consi
 - [x] User Story template
 - [x] ESLint on TypeScript
 - [x] Prettier formatter
-- [ ] Unit Testing via Vitest
-- [ ] Test Coverage (unknown tool at the moment)
+- [x] Unit Testing via Vitest
+- [x] Test Coverage via Vitest
 - [ ] GitHub Actions for Continuous Integration
 - [ ] Test status to Readme file
 - [ ] React Testing Library
