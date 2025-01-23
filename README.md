@@ -2,9 +2,9 @@
 
 This is a template repo for starting out web development in TypeScript. It consists of various libraries and tools commonly used for full-stack development. The repo also includes project templates to use for sprint planning. Below are the wishlist and checklist of libraries and tools integrated to start out the project. Please see Wiki page to see step-by-step on how the repo was setup.
 
-![Linting](https://github.com/antoni0kim/repo-template/actions/workflows/node-ci.yml/badge.svg?branch=github&job=lint)
-![Unit Tests](https://github.com/antoni0kim/repo-template/actions/workflows/node-ci.yml/badge.svg?branch=github&job=unit-test)
-![Test Coverage](https://github.com/antoni0kim/repo-template/actions/workflows/node-ci.yml/badge.svg?branch=github&job=test-coverage)
+![Linting](https://github.com/antoni0kim/repo-template/actions/workflows/linting.yml/badge.svg)
+![Unit Tests](https://github.com/antoni0kim/repo-template/actions/workflows/unit-test.yml/badge.svg)
+![Test Coverage](https://github.com/antoni0kim/repo-template/actions/workflows/test-coverage.yml/badge.svg)
 
 ## Checklist of tools integrated into repo
 
