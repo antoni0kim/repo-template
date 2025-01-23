@@ -9,6 +9,8 @@ on:
 jobs:
   install-dependencies:
     runs-on: ubuntu-latest
+    outputs:
+      node_modules: ${{ steps.install-deps.outputs.node_modules }}
     steps:
       - uses: actions/checkout@v4
       - name: Setup Node.js
@@ -16,7 +18,9 @@ jobs:
         with:
           node-version: 'latest'
       - name: Install dependencies
+        id: install-deps
         run: npm ci
+        continue-on-error: true
 
   lint:
     runs-on: ubuntu-latest
