@@ -2,7 +2,7 @@ name: Linting
 on:
   push:
     branches:
-      - github
+      - main
   pull_request:
     branches:
       - main
